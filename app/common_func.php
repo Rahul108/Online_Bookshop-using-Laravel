@@ -133,21 +133,7 @@ use App\common_func;
     }
 
     function send_message($number,$code){
-      try{
-        $soapClient =  new SoapClient("https://api2.onnorokomSMS.com/sendSMS.asmx?wsdl");
-        $paramArray = array(
-                           'apiKey' => 31903,
-                           'messageText' => "Your Order Has been Confirmed. Your Order Code is ".$code." Please confirm this number For receiving books!" ,
-                           'numberList' => $number,
-                           'smsType' => "TEXT",
-                           'maskName' => '',
-                           'campaignName' => '',
-                           );
-                           $value = $soapClient->__call("NumberSms", array($paramArray));
-                           //echo $value->numberSmsResult;
-        }   catch (Exception $e) {
-              echo $e->getMessage();
-            }
+      //Use an API For messaging Procedure 
     }
 
     function book_count($category){
