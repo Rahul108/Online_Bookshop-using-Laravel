@@ -1,7 +1,9 @@
 ## Online Bookshop  
 This Project has been developed for ordering books on online. With this CMS, A bookshop can sell their books online and also track and manage their books.
 
-![Online-Bookshop-Overview](https://media.giphy.com/media/RkZupyHYaQSKYV1gcq/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/RkZupyHYaQSKYV1gcq/giphy.gif" />
+</p>
 
 ## Installation of pre-requisites
 
