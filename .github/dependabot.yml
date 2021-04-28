@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: laravel/framework
+    versions:
+    - 6.20.23
+    - 6.20.24
+  - dependency-name: nunomaduro/collision
+    versions:
+    - 3.2.0
